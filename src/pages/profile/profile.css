@@ -1,0 +1,107 @@
+.profile{
+    overflow-x: hidden;
+    background-color: white;
+    height: 100vh;
+}
+
+.profile-container{
+    margin: 0 450px;
+}
+
+.profile-header{
+    display: flex;
+    gap: 115px;
+    padding: 25px 75px;
+}
+
+.header-left{
+    flex: 1;
+}
+
+.profile-image{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.header-right{
+    flex: 4;
+    flex-direction: column;
+}
+
+.header-right-top{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+}
+
+.header-right-top span{
+     font-size: 18px;
+     font-weight: 500;
+}
+
+.profile-page-buttons{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.edit-button button{
+    font-size: 15px;
+    width: 65px;
+    background-color:#3b5998;
+    color: white;
+    font-weight: 400;
+    padding: 3px;
+}
+
+.header-right-center{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.header-right-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 25px;
+}
+
+.header-right-bottom .profile-name{
+    font-weight: 500;
+}
+
+.profile-body{
+    border-top: 1px solid #ccc;
+}
+
+.profile-nav-tabs{
+    display: flex;
+    align-items: center;
+    padding-left: 165px;
+    gap: 35px;
+    position: relative;
+}
+
+.profile-nav-tabs button{
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    gap: 5px;
+}
+.profile-nav-tabs button:first-child{
+    border-top: 1px solid black;
+}
+
+.profile-body-posts{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-left: 12px;
+}
+

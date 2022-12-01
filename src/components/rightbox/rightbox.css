@@ -1,0 +1,94 @@
+.home-right{
+    padding: 0 15px;
+    position: sticky;
+    top: 75px;
+    z-index: 1000;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+}
+
+.account-image{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.account-titles{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.account-titles a{
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.account-titles span{
+    font-size: 15px;
+    color: #ccc;
+    margin-top: 3px;
+    margin-left: 3px;
+}
+
+.friends-title{
+    display: flex;
+    margin: 12px 0 8px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.friends-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+}
+
+/*
+.friend-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friend-item-left{
+    display: flex;
+    align-items: center;
+}
+
+.friend-username{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.friend-username a{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.friend-username span{
+    font-size: 14px;
+    color: #ccc;
+}
+
+.friend-item-right button{
+    border: 1px solid #3ea6ff;
+    border-radius: 3px;
+    background-color: transparent;
+    color: black;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+}
+*/

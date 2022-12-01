@@ -1,0 +1,23 @@
+.home{
+    overflow-x: hidden;
+    background-color: white;
+    height: 100vh;
+}
+
+.home-container{
+     margin: 0px 450px;
+     display: flex;
+     position: relative;
+}
+
+.home-left{
+    flex: 1.5;
+    margin-top: 15px;
+}
+
+.home-right{
+     flex:1;
+     margin-top: 10px;
+     margin-left: 20px;
+}
+

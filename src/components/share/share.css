@@ -1,0 +1,75 @@
+.share{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 375px;
+    border: 1px solid #D6D4D3;
+    z-index: 999;
+    background-color: white;
+}
+
+.share-top{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top:10px;
+    font-weight: 500;
+}
+
+.share-top span{
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+
+.share-bottom{
+    height: 350px;
+}
+
+.share-bottom-person-infos{
+    display: flex;
+    align-items: center;
+}
+
+.share-bottom-share-person{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.share-bottom-person-infos input{
+     margin-left: 10px;
+     border-radius: 10px;
+     padding: 5px;
+     width: 225px;
+     border: 1px solid #D6D4D3;
+     outline: none;
+}
+
+.share-bottom-person-infos button{
+     background-color: #FAFAFA;
+     padding: 7px 15px;
+     border-radius: 5px;
+     border: 1px solid #D6D4D3;
+     font-weight: 500;
+     color: black;
+     margin-left: 15px;
+}
+
+.share-bottom-modal-buttons{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 0px 15px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+.share-bottom-modal-buttons label button{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+

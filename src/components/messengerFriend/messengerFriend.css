@@ -1,0 +1,18 @@
+.messenger-friend{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.messenger-friend-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.messenger-friend span{
+    font-size: 15px;
+    font-weight: 500;
+}

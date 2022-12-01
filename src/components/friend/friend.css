@@ -1,0 +1,42 @@
+.friend-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.friend-item-left{
+    display: flex;
+    align-items: center;
+}
+
+.friend-username{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    margin-left: 10px;
+}
+
+.friend-username a{
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.friend-username span{
+    font-size: 14px;
+    color: #ccc;
+}
+
+.friend-item-right button{
+    border: 1px solid #3ea6ff;
+    border-radius: 3px;
+    background-color: transparent;
+    color: black;
+    margin-bottom: 15px;
+    padding: 5px;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left: 100px;
+    margin-top: 10px;
+    width: 75px;
+}
